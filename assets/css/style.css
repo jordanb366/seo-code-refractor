@@ -1,4 +1,4 @@
-/* Universal Selector */
+/* Universal Selector, changes box sizing, default padding and margin to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header element */
+/* Header element, changes padding, font, background color and text color*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* H1 element inside header element, changes to display as inline-block, and font size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes text color for h1 and class "seo" inside of header element */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Nav inside header element, changes top padding, right margin, floats nav element right, changes the font and font size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,25 +38,30 @@ header nav {
     font-size: 20px;
 }
 
+/* Changes "ul" list style type to none, removes the unordered lists bullet points */
 header nav ul {
     list-style-type: none;
 }
 
+/* Changes li element to display as inline block and adds a left margin */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes color of the link "a" element, and removes the link default underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Changes "p" paragraph elements font size*/
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Hero section of the page, large background image centered */
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -62,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Floats content left that are using the "float-left" class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats content right that are using the "float-right" class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Changes anything using the "content" class to have 75% width, display as inline block and have a left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changes margin right, padding, adds a clear, floats the class right, changes width and height, changes font, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,41 +101,49 @@ p {
     background-color: #2589bd;
 }
 
+/* Below changes the margin bottom, and text color for the classes "benefit-lead", "benefit-brand", and "benefit-cost" */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Below changes the bottom margin, and text align for the h3 element inside the classes "benefit-lead", "benefit-brand", "benefit-cost" */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+
+ .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} 
 
+/* Below changes display to block, margin, and max width for the "img" element inside the classes "benfit-lead", "benefit-brand", and "benefit-c0st" */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 .benefit-brand img {
     display: block;
@@ -131,12 +151,14 @@ p {
     max-width: 150px;
 }
 
+
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Below changes margin bottom, padding, height, font, background color and text color the classes "search-engine-optimization", "online-reputation-management", and "social-media-marketing" */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -145,6 +167,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -155,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -164,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* Below changes the maximum height for the "img" element inside the classes "search-engine-optimization", "online-reputation-management", and "social-media-marketing" */
 .search-engine-optimization img {
     max-height: 200px;
 }
+
 
 .online-reputation-management img {
     max-height: 200px;
 }
 
+
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Below changes margin bottom and font size for h2 element inside the classes "search-engine-optimization", "online-reputation-management", and "social-media-marketing" */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer element, styles padding, adds a clear, changes font family and aligns text to center */
 footer {
     padding: 30px;
     clear: both;
@@ -198,6 +229,7 @@ footer {
     text-align: center;
 }
 
+/* Changes the "H2" elements font size */
 footer h2 {
     font-size: 20px;
 }
